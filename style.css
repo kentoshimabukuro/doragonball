@@ -72,7 +72,7 @@ button{
 }
 
 #modal.hidden{
-  transform: translate(-1000px,0);
+  transform: translate(-3000px,0);
 }
 
 .answer{
