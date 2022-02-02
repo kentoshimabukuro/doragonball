@@ -1,0 +1,85 @@
+header {
+  background-color : gray;
+  width : 700px;
+  font-size : 30px;
+  margin : 10px auto; 
+  text-align :center;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 2.5px 0.0em rgba(0,0,0,1);
+}
+
+
+.img1 {
+  text-align : center;
+}
+
+h1 {
+  font-size : 20px;
+  width : 700px;
+  margin : 0px auto;
+  text-align :center;    
+}
+#shitumon{
+  background-color :rgb(207, 207, 207);
+  width : 700px;
+  margin : 0px 0px;
+}
+body{
+  border: 3px solid black ;
+  width: 700px;
+  margin : 0px auto;
+}
+button{
+  border: 1px solid black;
+  margin : 10px auto;
+  box-shadow: 0 0 3px black;
+}
+
+#close{
+  cursor: pointer;
+  width: 100px;
+  border: 1px solid;
+  margin: 0px auto;
+}
+
+#mask{
+  background: rgba(0,0,0,0.3);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#modal{
+  background: white;
+  position: absolute;
+  width: 400px;
+  z-index: 2;
+  padding: 10px;
+  border: 3px solid;
+  margin: 0px auto;
+  top: 500px;
+  left: 0;
+  right: 0;
+}
+
+#mask.hidden{
+  display: none;
+}
+
+#modal.hidden{
+  transform: translate(-1000px,0);
+}
+
+.answer{
+  margin: 5Px auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+label{
+  font-size : 12.5px;
+}
